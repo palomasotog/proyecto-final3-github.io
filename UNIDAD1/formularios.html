@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios Html</title>
+</head>
+<body>
+    <header class="cabecera">
+        
+    </header>
+    <section class="contenido">
+        <div>
+            <h1>Titulo del formulario</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora fugiat deleniti assumenda, neque ut atque quam suscipit nulla eligendi. Facere porro laudantium labore ipsam veniam excepturi, odio eaque quidem nihil?</p>
+        </div>
+        <div>
+            <form action="#" method="post">
+                <label for="">Nombre:
+                    <input type="text" name="text" id="nombre" placeholder="Escribe tu nombre">
+                </label>
+                <br>
+                <input type="tel" name="telefono" placeholder="Teléfono 10 dígitos">
+                <br>
+                <input type="email" placeholder="E-mail">
+                <br>
+                <label for="">Elegir una opción</label>
+                <input list="lista" name="Milista">
+                <datalist id="lista">
+                    <option value="Estudiante"></option>
+                    <option value="Egresado"></option>
+                    <option value="Empleado"></option>
+                    <option value="Visitante"></option>
+                </datalist>
+                <br>
+                <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+                <input type="button" value="Enviar"> 
+            </form>
+
+
+        </div>
+
+    </section>
+    <footer class="pie">
+
+
+    </footer>
+</body>
+</html>

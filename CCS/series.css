@@ -1,0 +1,43 @@
+/*DOCUMENTO CSS*/
+.principal {}
+
+body {background-image: url(../fondo9.jpeg)}
+.headers {text-align: center;}
+
+.items p { text-align: justify; }
+
+
+.principal { margin: 20px 10px 20px 10px;
+    text-align: left;
+    display: flex;}
+    
+    h2 {margin: 20px 0px;}
+    .principal div {width: 50%; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    text-shadow: 1px 3px 20px rgb(253, 124, 191);
+    color: rgb(255, 255, 255);}
+
+    .ima { display: block;
+    width: 100%;
+    height: auto ;}
+
+    .items img { width: 100%;
+        height: auto;
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 5px rgb(255, 255, 255);}
+
+    .items { width: 33.33%; }
+
+    .items { margin: 10px 10px 10px 10px;}
+
+    h1 { font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+    font-size: 40px; 
+    text-shadow: 1px 3px 20px rgb(253, 124, 197);
+    color: rgb(255, 255, 255);}
+
+    h3 {font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+        font-size: 14px; 
+        text-align: center;
+        text-shadow: 1px 3px 20px rgb(253, 124, 197);
+        color: rgb(255, 255, 255);}
+

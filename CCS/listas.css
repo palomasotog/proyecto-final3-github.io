@@ -1,0 +1,24 @@
+/*DOCUMENT CSS*/
+
+* { margin: 0px;
+    padding: 0px;}
+
+body { background: rgba(0, 255, 0, 0.324); }
+
+h1 { text-align: center;
+    padding: 20px 0px 20px 0px;
+    background-color: aquamarine;
+    color: blueviolet;
+    text-align:uppercase; 
+    background-image: url(../866-536x354.jpg); }
+
+.caja { display:block;
+        width: 90%;
+        min-height: 1px; 
+        margin: 15px auto;
+        padding-left: 50px;
+        box-sizing: border-box;
+        background-color: beige; }
+
+.imagen { margin: auto;
+ display: block;}

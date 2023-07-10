@@ -1,0 +1,31 @@
+/*DOCUMENTO CSS*/
+
+
+body {background-color: #db8e00a5;
+   background-image: url(../fondoplaya.jpeg);
+     color:rgb(210, 151, 0);}
+
+     h1 {color: rgb(210, 151, 0); 
+        width: 100%;
+        font-size: 90px;
+        font-style: oblique;
+        margin: 40px 0px;
+        text-align:center;}
+      h3 {font-size: 12px;
+         color:rgba(92, 143, 180, 0.734);}
+        .principal {}
+.headers {text-align: center;}
+.items {text-align:center;}
+
+.principal {margin: 20px 10px 20px 10px;
+    text-align:center;
+    font-family:sans-serif;
+    display:block;}
+    
+
+    .items img {height: auto;
+        border-radius: 90px;
+        border: 5px solid #e3a220e6;
+        box-shadow: 0 0 10px rgb(rgb(201, 124, 124);}
+
+ 

@@ -1,0 +1,32 @@
+/*DOCUMENTO CSS*/
+
+* { margin: 0;
+    padding: 0;}
+
+    header, section, article, footer, div, nav, aside, main { box-sizing: border-box; }
+
+#gallery { width: 100%;
+            min-height: 1px; }
+
+.container { display: flex;
+            flex-direction: column-reverse;
+            flex-wrap: wrap-reverse;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: stretch;
+            width: 70%;
+            font-family: sans-serif;
+            min-height: 400px;
+            background: rgb(222, 195, 172);
+            margin: auto;
+            padding: 15px;
+            text-align: center;
+            color: whitesmoke;
+            font-size: 40px;}
+
+.items { width: 15%;
+         height: 50px;
+         background: rgb(63, 57, 46);
+         border-radius: 15px; }
+
+.self { align-self: flex-end; }

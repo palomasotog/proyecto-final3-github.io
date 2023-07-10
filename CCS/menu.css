@@ -1,0 +1,8 @@
+/*DOCUMENT CSS*/
+
+* { margin: 0px;
+    padding: 0px;}
+
+.fondo-menu {background-color: rgb(158, 149, 137);}
+/*tamaño del logo aqui*/
+.navbar-brand {width: 130px;}

@@ -1,0 +1,65 @@
+/*DOCUMENTO CSS*/
+<style> 
+.principal {}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-image: url(../ct7.jpeg);}
+
+  h1 {color: #fffefe;
+    text-align: center;
+    margin-bottom: 20px;}
+
+  .article {max-width: 800px;
+    margin: 0 auto;
+    background-image: url(../ct5.jpeg);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px background-color: #ad2f2f;;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;}
+
+  .article img {display: block;
+    margin: 0 auto 20px;
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(129, 192, 116, 0.1);}
+
+  .article h2,h3 {color:#fffdfd;
+    background-color: #637a53;
+    margin-bottom: 10px;}
+
+  .article p {margin-bottom: 20px;
+    color: #000000;}
+
+  .article blockquote {margin: 0;
+    padding: 10px;
+    background-color: #ede9e9;
+    border-left: 4px solid #637a53;
+    color: #000000;
+    font-style: italic;}
+
+  .article a {color: #000000;
+    text-decoration: underline;}
+
+  .column-one {background-color: #f9f9f9;
+    padding: 20px;}
+
+  .column-two {background-color: #e9e9e9;
+    padding: 20px;}
+
+  .column-one img,
+  .column-two img {
+    border: 4px solid #fff;}
+
+    img {display: block;
+    margin: 20px auto;
+    max-width: 450px;}
+
+    h4 {color:#637a53;
+      text-align: center;
+      margin-bottom: 20px;}
+
+</style>

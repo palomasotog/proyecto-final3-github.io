@@ -1,0 +1,53 @@
+/*DOCUMENTO CSS*/
+* { margin: 0px;
+    padding: 0px;}
+    .principal {}
+    
+    body {background-color:  #e9e1d4;}
+    
+    video {position: fixed;
+        opacity: 0.8;
+        left: 0;
+        top: 0;
+        height:100%;
+        z-index: -1;}
+
+      h2 {color: #363029;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align:left;}
+
+      .section {background-color:   #8b7a5f;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: left;}
+
+      .section h2 {color:#363029;
+        text-align: lfet;
+        border-bottom: 2px solid  #363029;}
+
+      .section p, .section, ul, li {color: #363029;
+        font-family: Arial, Helvetica, sans-serif;
+        text-align: lfet;}
+
+      .section ul {margin: 0;
+        padding: 0;
+        list-style-type: none;}
+
+      .section ul li {margin-bottom: 5px;
+        color: #d7c4a6;}
+  
+      img {display: block;
+        margin: 20px auto;
+        max-width: 450px;
+        border: 8px solid  #363029;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);}
+
+        @media only screen and (min-width: 600px) { .container {width: 90%;}
+        a.item {color:#363029;
+        font-size: 70px;}
+  
+
+        h1 {color: #363029;
+            font-family:sans-serif;
+            font-size: 90px;
+            text-align:center;}
+

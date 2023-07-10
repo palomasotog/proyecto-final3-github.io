@@ -1,0 +1,22 @@
+/*DOCUMENTO CSS*/
+*{font-size: 25px;}
+
+body {background-color: #dbfeef;
+     color: aqua;}
+
+h1 {color: brown; 
+    text-align: center;
+    text-decoration: underline;}
+
+h2, h4 { color: green;} /*agrupacion de selectores*/
+
+h3, h5 {color: blue;} /*agrupacion de slectores*/
+
+p { color: bisque; }
+
+.atencion { color: coral;} /*selector de clase*/
+
+.isq {float: left;
+    width: 200px;
+    height: auto; }
+     
